@@ -828,7 +828,7 @@ class Curl {
   }
 
   void dataReceived(const char[] s) {
-    writef(s);
+    write(s);
   }
 
   char[] firstLine = null;
